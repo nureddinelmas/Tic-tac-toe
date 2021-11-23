@@ -9,37 +9,53 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    var tableList = [TableNumber]()
+  
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+    
+        let firstTry = TableNumber(zero: 1, one: 2, two: 1, three: 0, four: 0, five: 2, six: 2, seven: 1, eight: 1)
+        tableList.append(firstTry)
+        checkIt()
+       
     }
     
-    @IBAction func handlePan2(_ sender: UIPanGestureRecognizer) {
-        
-        let translation = sender.translation(in: self.view)
-        
-        if let viewToPan = sender.view{
-            viewToPan.center = CGPoint(x: viewToPan.center.x + translation.x,
-                                       y: viewToPan.center.y + translation.y)
+    func checkIt(){
+        if (tableList[0].zero == tableList[0].one && tableList[0].zero == tableList[0].two){
+            print("0-1-2 ")
         }
-    
-        sender.setTranslation(CGPoint.zero, in: self.view)
-        
-    }
-    
-    @IBAction func handlePan(_ sender: UIPanGestureRecognizer) {
-        
-        print("Jag är inne")
-        
-        let translation = sender.translation(in: self.view)
-        
-        if let viewToPan = sender.view{
-            viewToPan.center = CGPoint(x: viewToPan.center.x + translation.x,
-                                       y: viewToPan.center.y + translation.y)
+        if (tableList[0].three == tableList[0].four && tableList[0].three == tableList[0].five){
+            print("3-4-5 ")
         }
-    
-        sender.setTranslation(CGPoint.zero, in: self.view)
+        if (tableList[0].six == tableList[0].seven && tableList[0].six == tableList[0].eight){
+            print("6-7-8 ")
+        }
+        if (tableList[0].zero == tableList[0].three && tableList[0].zero == tableList[0].six){
+            print("0-3-6 ")
+        }
+        if (tableList[0].one == tableList[0].four && tableList[0].one == tableList[0].seven){
+            print("1-4-7 ")
+        }
+        if (tableList[0].zero == tableList[0].one && tableList[0].zero == tableList[0].two){
+            print(" ")
+        }
+        if (tableList[0].zero == tableList[0].four && tableList[0].zero == tableList[0].eight){
+            print("0-4-8 ")
+        }
+        if (tableList[0].two == tableList[0].five && tableList[0].two == tableList[0].eight){
+            print("Bra! ")
+        }
+        if (tableList[0].two == tableList[0].five && tableList[0].two == tableList[0].eight){
+            print("Bra! ")
+        }
+        if (tableList[0].two == tableList[0].five && tableList[0].two == tableList[0].eight){
+            print("Bra! ")
+        }
+        
     }
+
+
     
 }
 

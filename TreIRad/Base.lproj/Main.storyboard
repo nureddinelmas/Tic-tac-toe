@@ -12,49 +12,124 @@
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="TreIRad" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                    <view key="view" contentMode="scaleAspectFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="papatya2" translatesAutoresizingMaskIntoConstraints="NO" id="lyC-JJ-o4S">
-                                <rect key="frame" x="72" y="236" width="240" height="128"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="rectangel" translatesAutoresizingMaskIntoConstraints="NO" id="lyC-JJ-o4S" userLabel="1">
+                                <rect key="frame" x="20" y="119" width="100" height="100"/>
                                 <gestureRecognizers/>
-                                <connections>
-                                    <outletCollection property="gestureRecognizers" destination="imu-Kt-UTt" appends="YES" id="syg-nK-S3W"/>
-                                </connections>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="H2y-6A-9CQ"/>
+                                    <constraint firstAttribute="height" constant="100" id="jlR-CG-DVU"/>
+                                </constraints>
                             </imageView>
-                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="PIA24836-Perseverance_Selfie_at_Rochette-Figure_1" translatesAutoresizingMaskIntoConstraints="NO" id="BmK-XN-Kxq">
-                                <rect key="frame" x="72" y="462" width="240" height="128"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="rectangel" translatesAutoresizingMaskIntoConstraints="NO" id="BmK-XN-Kxq" userLabel="2">
+                                <rect key="frame" x="20" y="241" width="100" height="100"/>
                                 <gestureRecognizers/>
-                                <connections>
-                                    <outletCollection property="gestureRecognizers" destination="ckh-ve-vek" appends="YES" id="evK-ay-74x"/>
-                                </connections>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="DaP-IO-PCK"/>
+                                    <constraint firstAttribute="height" constant="100" id="p7s-T6-knI"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="rectangel" translatesAutoresizingMaskIntoConstraints="NO" id="rTa-ma-Wld" userLabel="3">
+                                <rect key="frame" x="294" y="241" width="100" height="100"/>
+                                <gestureRecognizers/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="4i3-VI-u5Q"/>
+                                    <constraint firstAttribute="height" constant="100" id="xg5-mQ-Wg6"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="rectangel" translatesAutoresizingMaskIntoConstraints="NO" id="3Cy-DG-GTT" userLabel="4">
+                                <rect key="frame" x="157" y="241" width="100" height="100"/>
+                                <gestureRecognizers/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="C9g-1a-Els"/>
+                                    <constraint firstAttribute="width" constant="100" id="ZSv-c3-1Qw"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="rectangel" translatesAutoresizingMaskIntoConstraints="NO" id="Kem-B0-qoh" userLabel="8">
+                                <rect key="frame" x="294" y="119" width="100" height="100"/>
+                                <gestureRecognizers/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="axc-z7-6mB"/>
+                                    <constraint firstAttribute="width" constant="100" id="hPe-ad-U75"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="rectangel" translatesAutoresizingMaskIntoConstraints="NO" id="dUk-35-cTH" userLabel="5">
+                                <rect key="frame" x="20" y="361" width="100" height="100"/>
+                                <gestureRecognizers/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="9gr-m4-KKn"/>
+                                    <constraint firstAttribute="width" constant="100" id="a8j-Cq-CNG"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="rectangel" translatesAutoresizingMaskIntoConstraints="NO" id="BxT-B6-Q5i" userLabel="6">
+                                <rect key="frame" x="294" y="361" width="100" height="100"/>
+                                <gestureRecognizers/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="fkU-XK-Vp9"/>
+                                    <constraint firstAttribute="height" constant="100" id="n7K-JP-UHA"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="rectangel" translatesAutoresizingMaskIntoConstraints="NO" id="meh-Rc-EJV" userLabel="7">
+                                <rect key="frame" x="157" y="361" width="100" height="100"/>
+                                <gestureRecognizers/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="7qX-ak-Qcz"/>
+                                    <constraint firstAttribute="height" constant="100" id="Yf8-eV-DsN"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="rectangel" translatesAutoresizingMaskIntoConstraints="NO" id="QMS-lW-vC7" userLabel="9">
+                                <rect key="frame" x="157" y="119" width="100" height="100"/>
+                                <gestureRecognizers/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="Pbx-Vq-Cu5"/>
+                                    <constraint firstAttribute="height" constant="100" id="T1Z-Cw-ncX"/>
+                                </constraints>
+                                <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="medium"/>
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="lyC-JJ-o4S" firstAttribute="centerY" secondItem="QMS-lW-vC7" secondAttribute="centerY" id="1cv-k8-Zog"/>
+                            <constraint firstItem="lyC-JJ-o4S" firstAttribute="top" secondItem="Kem-B0-qoh" secondAttribute="top" id="Agb-7O-XIs"/>
+                            <constraint firstItem="3Cy-DG-GTT" firstAttribute="centerY" secondItem="rTa-ma-Wld" secondAttribute="centerY" id="Cb2-Mn-l06"/>
+                            <constraint firstItem="dUk-35-cTH" firstAttribute="top" secondItem="meh-Rc-EJV" secondAttribute="top" id="FJt-Yf-OaP"/>
+                            <constraint firstItem="BmK-XN-Kxq" firstAttribute="top" secondItem="3Cy-DG-GTT" secondAttribute="top" id="G7R-u3-VI3"/>
+                            <constraint firstItem="Kem-B0-qoh" firstAttribute="leading" secondItem="rTa-ma-Wld" secondAttribute="leading" id="HMG-bU-qsX"/>
+                            <constraint firstItem="3Cy-DG-GTT" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="IDY-DN-Odx"/>
+                            <constraint firstItem="rTa-ma-Wld" firstAttribute="top" secondItem="Kem-B0-qoh" secondAttribute="bottom" constant="22" id="QiC-FG-ylo"/>
+                            <constraint firstItem="QMS-lW-vC7" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="75" id="aQg-yd-kii"/>
+                            <constraint firstItem="BxT-B6-Q5i" firstAttribute="top" secondItem="rTa-ma-Wld" secondAttribute="bottom" constant="20" id="axu-HY-fsJ"/>
+                            <constraint firstAttribute="trailing" secondItem="BxT-B6-Q5i" secondAttribute="trailing" constant="20" id="bzr-aX-com"/>
+                            <constraint firstItem="meh-Rc-EJV" firstAttribute="top" secondItem="BxT-B6-Q5i" secondAttribute="top" id="d0y-E7-jMq"/>
+                            <constraint firstItem="Kem-B0-qoh" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="eDd-6c-Abl"/>
+                            <constraint firstItem="QMS-lW-vC7" firstAttribute="leading" secondItem="lyC-JJ-o4S" secondAttribute="trailing" constant="37" id="fJi-WA-sq8"/>
+                            <constraint firstItem="lyC-JJ-o4S" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="flq-OK-xJa"/>
+                            <constraint firstItem="BmK-XN-Kxq" firstAttribute="leading" secondItem="dUk-35-cTH" secondAttribute="leading" id="hRe-KE-Vgh"/>
+                            <constraint firstItem="lyC-JJ-o4S" firstAttribute="leading" secondItem="BmK-XN-Kxq" secondAttribute="leading" id="qo8-YP-zzY"/>
+                            <constraint firstItem="BxT-B6-Q5i" firstAttribute="leading" secondItem="meh-Rc-EJV" secondAttribute="trailing" constant="37" id="tnT-eo-Ldb"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
-                <panGestureRecognizer minimumNumberOfTouches="1" id="imu-Kt-UTt" userLabel="Pan Gesture Recognizer (Image View)">
-                    <connections>
-                        <action selector="handlePan:" destination="BYZ-38-t0r" id="9Ze-tH-HGg"/>
-                    </connections>
-                </panGestureRecognizer>
-                <panGestureRecognizer minimumNumberOfTouches="1" id="ckh-ve-vek">
-                    <connections>
-                        <action selector="handlePan2:" destination="BYZ-38-t0r" id="Waw-aU-LLx"/>
-                    </connections>
-                </panGestureRecognizer>
+                <tapGestureRecognizer id="aNy-61-Eyo" userLabel="(1) Tap Gesture Recognizer"/>
+                <tapGestureRecognizer id="xMe-d2-V8J" userLabel="(9) Tap Gesture Recognizer"/>
+                <tapGestureRecognizer id="vFB-Id-d9m" userLabel="(8) Tap Gesture Recognizer"/>
+                <tapGestureRecognizer id="bbE-OD-Zeg" userLabel="(2) Tap Gesture Recognizer"/>
+                <tapGestureRecognizer id="cSZ-xY-EOJ" userLabel="(4) Tap Gesture Recognizer"/>
+                <tapGestureRecognizer id="KwR-Ba-8pf" userLabel="(3) Tap Gesture Recognizer"/>
+                <tapGestureRecognizer id="STc-T7-dMm" userLabel="(5) Tap Gesture Recognizer"/>
+                <tapGestureRecognizer id="zLd-J3-LeU" userLabel="(7) Tap Gesture Recognizer"/>
+                <tapGestureRecognizer id="NaM-s6-baN" userLabel="(6) Tap Gesture Recognizer"/>
             </objects>
-            <point key="canvasLocation" x="35" y="98"/>
+            <point key="canvasLocation" x="34.782608695652179" y="97.767857142857139"/>
         </scene>
     </scenes>
     <resources>
-        <image name="PIA24836-Perseverance_Selfie_at_Rochette-Figure_1" width="9982" height="11757"/>
-        <image name="papatya2" width="736" height="736"/>
+        <image name="rectangel" width="392" height="379"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

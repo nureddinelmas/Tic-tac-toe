@@ -13,6 +13,7 @@
 		E15A2C1C274D10E60051C863 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E15A2C1A274D10E60051C863 /* Main.storyboard */; };
 		E15A2C1E274D10E80051C863 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E15A2C1D274D10E80051C863 /* Assets.xcassets */; };
 		E15A2C21274D10E80051C863 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E15A2C1F274D10E80051C863 /* LaunchScreen.storyboard */; };
+		E15A2C33274D2DF90051C863 /* TableNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15A2C32274D2DF90051C863 /* TableNumber.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		E15A2C1D274D10E80051C863 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E15A2C20274D10E80051C863 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E15A2C22274D10E80051C863 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E15A2C32274D2DF90051C863 /* TableNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableNumber.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				E15A2C1D274D10E80051C863 /* Assets.xcassets */,
 				E15A2C1F274D10E80051C863 /* LaunchScreen.storyboard */,
 				E15A2C22274D10E80051C863 /* Info.plist */,
+				E15A2C32274D2DF90051C863 /* TableNumber.swift */,
 			);
 			path = TreIRad;
 			sourceTree = "<group>";
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E15A2C19274D10E60051C863 /* ViewController.swift in Sources */,
+				E15A2C33274D2DF90051C863 /* TableNumber.swift in Sources */,
 				E15A2C15274D10E60051C863 /* AppDelegate.swift in Sources */,
 				E15A2C17274D10E60051C863 /* SceneDelegate.swift in Sources */,
 			);
