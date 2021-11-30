@@ -9,6 +9,9 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    var player1 : String = ""
+    var player2 : String = ""
+    
     var player1active = false
     var tableNumber = [11,12,13,14,15,34,23,12,54]
   
@@ -379,18 +382,18 @@ class ViewController: UIViewController {
     
    func showPlayerText (){
        if player1active {
-           playerTextLabel.text = "Player 2 is now playing"
+           playerTextLabel.text = "\(player1) is now playing"
        } else{
-           playerTextLabel.text = "Player 1 is now playing"
+           playerTextLabel.text = "\(player2) is now playing"
        }
        
     }
     
     var winner : String {
         if player1active {
-            return "Player 2"
+            return "\(player2)"
         } else{
-            return "Player 1"
+            return "\(player1)"
         }
     }
     

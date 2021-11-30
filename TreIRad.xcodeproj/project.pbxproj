@@ -14,6 +14,7 @@
 		E15A2C1E274D10E80051C863 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E15A2C1D274D10E80051C863 /* Assets.xcassets */; };
 		E15A2C21274D10E80051C863 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E15A2C1F274D10E80051C863 /* LaunchScreen.storyboard */; };
 		E15A2C33274D2DF90051C863 /* TableNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15A2C32274D2DF90051C863 /* TableNumber.swift */; };
+		E15AF4A82756570900963271 /* PlayerIntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15AF4A72756570900963271 /* PlayerIntroViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		E15A2C20274D10E80051C863 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E15A2C22274D10E80051C863 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E15A2C32274D2DF90051C863 /* TableNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableNumber.swift; sourceTree = "<group>"; };
+		E15AF4A72756570900963271 /* PlayerIntroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerIntroViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				E15A2C1F274D10E80051C863 /* LaunchScreen.storyboard */,
 				E15A2C22274D10E80051C863 /* Info.plist */,
 				E15A2C32274D2DF90051C863 /* TableNumber.swift */,
+				E15AF4A72756570900963271 /* PlayerIntroViewController.swift */,
 			);
 			path = TreIRad;
 			sourceTree = "<group>";
@@ -141,6 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E15AF4A82756570900963271 /* PlayerIntroViewController.swift in Sources */,
 				E15A2C19274D10E60051C863 /* ViewController.swift in Sources */,
 				E15A2C33274D2DF90051C863 /* TableNumber.swift in Sources */,
 				E15A2C15274D10E60051C863 /* AppDelegate.swift in Sources */,
